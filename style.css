@@ -43,6 +43,10 @@ li a:hover {
   cursor: text;
   transition: all 0.3s ease;
 }
+input#searchbar:focus {
+  background-image: none;
+  text-indent: 0px;
+}
 input#searchbar:hover {
   cursor: text;
   background-color: white;
@@ -121,7 +125,6 @@ input#Lucky_button:hover {
   position: absolute;
   background-color: #efefef;
   float: left;
-  /* text-align: left; */
   color: rgba(0, 0, 0, 0.54);
   padding-left: 27px;
 }
@@ -154,5 +157,4 @@ hr {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-  /* margin: 20em; */
 }
